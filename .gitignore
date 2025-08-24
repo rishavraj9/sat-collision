@@ -1,1 +1,34 @@
- 
+ # Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Node (Frontend)
+node_modules/
+dist/
+build/
+package-lock.json
+
+# VSCode
+.vscode/
+
